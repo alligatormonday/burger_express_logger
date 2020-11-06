@@ -1,0 +1,23 @@
+{
+  "name": "burger_express_logger",
+  "version": "1.0.0",
+  "description": "Homework 13",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alligatormonday/burger_express_logger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alligatormonday/burger_express_logger/issues"
+  },
+  "homepage": "https://github.com/alligatormonday/burger_express_logger#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
