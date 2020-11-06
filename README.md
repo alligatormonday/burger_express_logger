@@ -2,4 +2,10 @@
 Homework 13
 
 
-4. Run the `schema.sql` and `seeds.sql` files into the mysql server from the command line
+   * In the `orm.js` file, create the methods that will execute the necessary MySQL commands in the controllers. These are the methods you will need to use in order to retrieve and store data in your database.
+
+     * `selectAll()`
+     * `insertOne()`
+     * `updateOne()`
+
+   * Export the ORM object in `module.exports`.
