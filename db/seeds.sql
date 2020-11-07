@@ -1,8 +1,8 @@
 INSERT INTO burgers (burger_name)
-VALUES ("Impossible Burger")
+VALUES ("Impossible Burger");
 
 INSERT INTO burgers (burger_name)
-VALUES ("Double-Double")
+VALUES ("Double-Double");
 
 INSERT INTO burgers (burger_name)
-VALUES ("White-Castle Slider")
+VALUES ("White-Castle Slider");
