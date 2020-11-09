@@ -39,7 +39,7 @@ function objToSql(ob) {
 }
 
 const orm = {
-    getAllBurgers: function (tableInput, bb) {
+    all: function (tableInput, bb) {
         const allQueryString = "SELECT * FROM " + tableInput + ";";
         connection.query(allQueryString, function (err, result) {
             if (err) {
@@ -48,7 +48,7 @@ const orm = {
             bb(result);
         });
     },
-    createBurger: function (table, cols, vals, bb) {
+    create: function (table, cols, vals, bb) {
         let queryString = "INSERT INTO " + table;
 
         queryString += " (";

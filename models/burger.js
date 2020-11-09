@@ -2,20 +2,20 @@
 const orm = require("../config/orm.js");
 
 const burger = {
-    all: function (cb) {
+    all: function (bb) {
         orm.all("burgers", function (res) {
-            cb(res);
+            bb(res);
         });
     },
     // The variables cols and vals are arrays.
-    create: function (cols, vals, cb) {
+    create: function (cols, vals, bb) {
         orm.create("burgers", cols, vals, function (res) {
-            cb(res);
+            bb(res);
         });
     },
-    update: function (objColVals, devoured, cb) {
+    update: function (objColVals, devoured, bb) {
         orm.update("burgers", objColVals, devoured, function (res) {
-            cb(res);
+            bb(res);
         });
     },
 };
