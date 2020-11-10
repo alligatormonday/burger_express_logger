@@ -3,9 +3,10 @@ $(function () {
     $(".change-devoured").on("click", function (event) {
         const id = $(this).data("id");
         const newDevour = $(this).data("beingDevoured");
+        console.log(newDevour)
 
         const newDevourState = {
-            devoured: newDevour
+            devoured: true
         }
         
         // Send the PUT request.
