@@ -2,9 +2,9 @@
 
 ## 🕹 Demo:
 
-![Demo of application](assets/mysql_employee_tracker_DEMO.gif)
+![Demo of application](public/assets/burger_express_logger_DEMO.gif)
 
-Video of demo: [mysql_employee_tracker_DEMO](https://drive.google.com/file/d/1A7vlyTgxvLf7moCUhghVpJKEeEMBKIyD/view) 
+Video of demo: [mysql_employee_tracker_DEMO](https://drive.google.com/file/d/1pGm_qYuKIscrA3aRoZfXsRlJ4pXH1QIE/view) 
 
 ![License](https://img.shields.io/badge/License-MIT-yellow) 
 ## 👤 Author: Joseph Jepson 
@@ -26,18 +26,18 @@ Video of demo: [mysql_employee_tracker_DEMO](https://drive.google.com/file/d/1A7
   * [License](#License) 
 
   ## Description: 
-CLI application that allows users to manage their business. Users can view/add/remove departments, view/add/remove/update roles, view/add/remove employees. 
+ Node.js Express app, using MySQL as a database with Handlebars to serve the HTML page. When a user visits this application, they can enter a burger that they would like to eat! Then they can click the 'devour' button to eat the burger they submitted!
 
-![Image of DEMO application](assets/DEMO_image.png)
+![Image of DEMO application](public/assets/DEMO_image.png)
 
 ## Installation: 
- Clone the repo, and run 'npm init', 'npm install mysql2'. Copy the 'employeeSchemma' text into a mysql workbench file, execute the script.  
+ Clone the repo, and run 'npm init', 'npm install'. Copy the 'schema.sql' text into a mysql workbench file, execute the script. Copy the seeds to insert data into the table.  
 
 ## Usage: 
- Run 'node index.js' to start application. In order to use this application the user will need to use the schema and seeds to get starting data into the database. Then in order to follow the application's logic, add a new department FIRST > THEN a add role > THEN add an employee. User can't add an employee without a role or manager for the employee. User can't add a role without a department for the role. REMOVING a role will remove the employee attached to that role. REMOVING a department will remove all data/employees/roles contained within.
+ Run 'node server.js' to start application. In order to use this application the user will need to use the schema and seeds to get starting data into the database. 
 
-## Contributors: 
- Make a pull request to share helpful functions that you'd think would improve the project! 
+## Credits: 
+* 👤 [Andrew Moses](https://github.com/andrewmosesdrive) - worked together to help complete this assignment. 
 
 ## Testing: 
 
