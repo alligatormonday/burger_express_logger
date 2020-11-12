@@ -29,6 +29,7 @@ Video of demo: [mysql_employee_tracker_DEMO](https://drive.google.com/file/d/1pG
  Node.js Express app, using MySQL as a database with Handlebars to serve the HTML page. When a user visits this application, they can enter a burger that they would like to eat! Then they can click the 'devour' button to eat the burger they submitted!
 
 ![Image of DEMO application](public/assets/DEMO_image.png)
+![View Deployement:](https://floating-plateau-77667.herokuapp.com/)
 
 ## Installation: 
  Clone the repo, and run 'npm init', 'npm install'. Copy the 'schema.sql' text into a mysql workbench file, execute the script. Copy the seeds to insert data into the table.  
