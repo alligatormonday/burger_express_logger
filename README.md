@@ -4,7 +4,7 @@
 
 ![Demo of application](public/assets/burger_express_logger_DEMO.gif)
 
-Video of demo: [mysql_employee_tracker_DEMO](https://drive.google.com/file/d/1pGm_qYuKIscrA3aRoZfXsRlJ4pXH1QIE/view) 
+Video of demo: [burger_express_logger_DEMO](https://drive.google.com/file/d/1pGm_qYuKIscrA3aRoZfXsRlJ4pXH1QIE/view) 
 
 ![License](https://img.shields.io/badge/License-MIT-yellow) 
 ## 👤 Author: Joseph Jepson 
